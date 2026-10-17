@@ -1,0 +1,13 @@
+[project]
+name = "govdata"
+version = "0.1.0"
+description = "Governed data agent: governed access across structured and unstructured sources"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["govdata"]
