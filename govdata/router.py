@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import re
 from dataclasses import dataclass, field
-from typing import List, Tuple
+from typing import List
 
 from govdata.policy import AccessPolicy, Decision, Mode, Role
 from govdata.sources import Source, SourceRegistry
